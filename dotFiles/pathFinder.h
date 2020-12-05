@@ -11,4 +11,4 @@ class pathFinder {
     public:
         void search();
         pathFinder(cell *pmap, int initialColumn, int initialRow);
-}
+};
