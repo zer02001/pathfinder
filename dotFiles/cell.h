@@ -8,4 +8,6 @@ class cell {
 
     public:
         void setCellType(int aCellType);
+        int getCellType();
+        cell();
 };
