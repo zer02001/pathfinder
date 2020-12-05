@@ -10,5 +10,5 @@ class cell {
     public:
         void setCellType(int aCellType);
         int getCellType();
-        cell();
+        cell(int x = 0);
 };
