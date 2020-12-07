@@ -6,10 +6,10 @@ using namespace std;
 
 class pathFinder {
     private: 
-        cell *map;
+        cell **map;
         position currentPosition;
         void display();
     public:
         void search();
-        pathFinder(cell *pmap, int initialColumn, int initialRow);
+        pathFinder(cell **pmap, int initialColumn, int initialRow);
 };
