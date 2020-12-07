@@ -9,6 +9,7 @@ class pathFinder {
         cell **map;
         position currentPosition;
         void display();
+        bool search(int row, int column);
     public:
         void search();
         pathFinder(cell **pmap, int initialColumn, int initialRow);
